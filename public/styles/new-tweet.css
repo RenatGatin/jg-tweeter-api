@@ -1,0 +1,43 @@
+
+form.new-tweet {
+  display: flex;
+  flex-direction: column;
+ 
+/* tweet text input */  
+}
+#tweet-text {
+  border: none;
+  border-bottom: 5px solid #97B09F;
+  outline: none;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  background-color: #f4f1ec;
+}
+
+/* entered characters counter */
+#counter {
+  font-family: "Bungee";
+  position: relative;
+  float: right;
+}
+
+/* applied when tweet exceeds 140 chars */
+.red-counter {
+  font-family: "Bungee";
+  color: red;
+}
+
+/* for error messages when submitting a tweet */
+.error-message {
+  display: none;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color:lightsalmon;
+  box-shadow: 2px 2px 2px  slategrey;
+  color: white;
+  opacity: 80%;
+  
+}
+
