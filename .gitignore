@@ -1,2 +1,8 @@
 # Project exclude paths
 /node_modules/
+
+# IntelliJ config
+/.idea/
+
+# package-lock.json
+package-lock.json
